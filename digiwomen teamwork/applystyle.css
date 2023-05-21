@@ -1,0 +1,88 @@
+
+    .header{
+        display: flex;
+        background: #F5F2EF;
+        padding: 20px;
+        }
+    
+    .left-header {
+        display: flex;
+        width: 50%;
+    }
+    
+    .logo{
+        display: flex;
+    float:left;
+    }
+    
+    .logo-text{
+        display: flex;
+        float:left;
+        text-decoration: none;
+    }
+    .right-header {
+    display: flex;
+    width: 50%;
+        float: right;
+    }
+    .right-header a{
+    margin: 10px;
+    float: right;
+    } 
+    .myForm input {
+        display: block;
+        width: 200px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding:10px;
+        margin:10px;
+    }
+    
+table{
+margin-top: 15px;
+font-family: Philosopher;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+td{
+height: 40px;
+width: 480px;
+left: 473px;
+top: 26px;
+border-radius: 15px;
+padding: 18px 49px 18px 49px;
+border: 1px solid black;
+
+}
+table {
+    border-spacing: 30px;
+    margin-bottom: 0px;
+  }
+.middle {
+    width:900px;
+}
+footer {
+    margin-top: 5px;
+    background-color: black;
+}
+.footer-one {
+    padding:10px 30px;
+    color: white;
+}
+.footer-one #numbers {
+    padding:25px 50px;
+    color: white;
+}
+.footer-logo {
+    display:inline-block;
+    padding-top:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 2px;
+}

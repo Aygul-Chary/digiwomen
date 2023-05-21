@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="applystyle.css" />
+</head>
+<script>
+    console.log('hi there')
+    function submitFunc(){
+        console.log(document.getElementById("firstname").value)
+    }
+    </script>
+<body>
+   <div class="header">
+        <div class="left-header">
+            <div class="logo"><img  src=".applyimages/Vector.png" alt="vector"/></div>
+            <div><a href="index.html" class="logo-text">Woman<br>to<br>Woman</a></div>
+        </div>
+        <div class="right-header">
+          <a href="">About us</a>
+          <a href="">Contact</a>  
+        </div>
+    </div>
+    <p>If you are seeking a job, please fill out the form below:</p>
+    <form class="myForm">
+        <input type="text" id="firstname" placeholder="First name">
+        <input type="text" placeholder="Family name">
+        <input type="text" placeholder="email">
+        <input type="text" placeholder="+993 Your phone number">
+        <input type="text" placeholder="Upload your recent photo">
+        <input type="text"placeholder="Job you can do">
+        <input type="button" onclick="submitFunc()" value="Submit">
+    </form>
+     <div class="table">
+     <table>
+      <tr>
+        <td>Seeking a job</td>
+        <td class="middle"> Looking for an Empoyee </td>
+        <td>Volunteering</td>
+       </tr>
+       <tr> 
+        <td>Startups </td>
+        <td class="middle">Advertising for free </td>
+        <td>Make it Women</td>
+      </tr>
+     </table>
+    </div>
+    <footer>
+    <p class="footer-one">Contancts:</p>
+    <p class="footer-one" id="numbers">+99364661710</p>
+    <div class="group-logos">
+    <div class="footer-logo"><img src=".applyimages/Vector (1).png" alt="facebook"></div>
+    <div class="footer-logo"><img src=".applyimages/Vector (2).png" alt="facebook"></div>
+    <div class="footer-logo"><img src=".applyimages/Vector (3).png" alt="facebook"></div>
+    <div class="footer-logo"><img src=".applyimages/Vector (4).png" alt="facebook"></div>
+    <div class="footer-logo"><img src=".applyimages/Vector (5).png" alt="facebook"></div>
+   </div>
+</footer>
+
+</body>
+</html>
